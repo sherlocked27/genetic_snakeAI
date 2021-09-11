@@ -1,15 +1,15 @@
 
- **Activity UML Diagram:** (overall diagram/Actdia.png)
+ **Activity UML Diagram:** 
  
 Overall
-![](./diagram/Actdia.png)
+![](./diagram/ActDia.png)
 
 Per Snake
 ![](./diagram/Act2dia.png)
 
-**Class UML Diagram:** (diagram/classdia.png )
+**Class UML Diagram:** 
 
-![](./diagram/classdia.png)
+![](./diagram/classDia.png)
 
 **AI Algorithm used:**
 
