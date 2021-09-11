@@ -1,4 +1,7 @@
-![](./diagram/Actdia.png) **Activity UML Diagram:**
+
+ **Activity UML Diagram:**
+
+![](./diagram/Actdia.png)
 
 **Class UML Diagram:**
 
@@ -36,3 +39,16 @@ The output is then analysed and used to move snake using a function called Move 
 _Below is the Activity UML diagram showing the running process of each snake._
 
 ![](./diagram/Act2dia.png)
+
+The program we used to write and run this code was processing https://processing.org/download/
+
+If you get it working some instructions
+press Space to just show the current best from  each population
+press d to double the mutation rate
+press h to halve it 
+after you run it some snakes will be saved press 0 to 4 to check them out
+to further train the snakes of legend (the saved snakes) press L
+to fuse snakes together to create a super snake press f
+
+
+It is inspired by [Youtube video](https://youtu.be/3bhP7zulFfY).
