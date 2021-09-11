@@ -12,6 +12,5 @@ to further train the snakes of legend (the saved snakes) press L
 to fuse snakes together to create a super snake press f
 
 
-I hope my commenting makes sense 
-
-Have fun :)
+It is inspired by [Youtube video](https://youtu.be/3bhP7zulFfY).
+Credit to the owner wherever necessary. 
