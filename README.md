@@ -1,9 +1,13 @@
 
- **Activity UML Diagram:**
-
+ **Activity UML Diagram:** (overall diagram/Actdia.png)
+ 
+Overall
 ![](./diagram/Actdia.png)
 
-**Class UML Diagram:**
+Per Snake
+![](./diagram/Act2dia.png)
+
+**Class UML Diagram:** (diagram/classdia.png )
 
 ![](./diagram/classdia.png)
 
@@ -16,7 +20,7 @@ The main reason for using _genetic random mutation_ is because:
 1. We don&#39;t have a dataset of high scoring Snake gameplays to use to train a neural network by example.
 2. Personal interest in seeing if it&#39;s possible to evolve logic that can play Snake through only genetic mutations.
 
-**What is** _ **genetic random mutation?** _
+**What is** **genetic random mutation?**
 
 Instead of picking a type of neural network and then slowly training it based on available Snake gameplay datasets using different algorithms like Gradient Descent, MinMax, etc. we are going to create a scenario for one to evolve on its own.
 
@@ -36,9 +40,6 @@ For each of the 8 possible directions i.e. 8\*3 = 24 inputs which is passed to t
 
 The output is then analysed and used to move snake using a function called Move as the snake moves its life time is increased and Time it has left\_to\_live is decremented to avoid loops. The **condition of looping** can arise due to the fact that the neural network might give more weightage to the survival conditions and less to the goal of getting the food which might result in snake going round and round in circles, to avoid this we are deducting time left to live for every movement of snake if he didn&#39;t achieve the goal of getting the food. If he achieve his goal of getting the food he is rewarded for the same (i.e. a specific number of points is added to left\_to\_live).
 
-_Below is the Activity UML diagram showing the running process of each snake._
-
-![](./diagram/Act2dia.png)
 
 The program we used to write and run this code was processing https://processing.org/download/
 
